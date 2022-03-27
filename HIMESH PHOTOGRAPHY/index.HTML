@@ -1,0 +1,95 @@
+<DOCTYPE HTML!>
+ <HEAD>
+ <TITTLE>HIMESH PHOTOGRGRAPHY</TITTLE>
+ <Link rel="stylesheet" href="style.css">
+  <script src="myscripts.js"></script>
+  
+
+ </HEAD>
+  <BODY>
+   <div class="container">
+    <div class="menu">
+     <ul>
+      <li class="logo"><img src="cam.png"></li>
+      <li class="active" href="#home">Home</li>
+      <a href="services.html">Services</a>
+      <a href="demo.html">Demo</a>
+      <a href="gallary.html">Gallary</a>
+      <a href="Contact.HTML">Contact</a>
+     </ul>
+    </div>
+     <div class="banner">
+      <div class="app-text">
+        <h1>Make your photo stylish and actractive with<br> HIMESH PHOTOGRAPHY</h1>
+        <p>Make yours Photo more atractive and stylish, Impress peoples.<br> Eddit your photo to the best popular and profesnel Edditor Ft. himesh.<br> The 5 years of exprience in edditing field. <br>All type of edditing, logo, banner, visiting card, poster design,greating card<br> All services available here. submite your photo for edit or contact now</p>
+         <div class="dabba">
+          <form action="action_page.php">
+            <div class="row">
+              <div class="col-25">
+                <label for="fname">Your Name</label>
+              </div>
+              <div class="col-75">
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-25">
+                <label for="lname">Your Number</label>
+              </div>
+              <div class="col-75">
+                <input type="text" id="lname" name="lastname" placeholder="Your mobile Number..">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-25">
+                <label for="country">What type of Eddit you want?</label>
+              </div>
+              <div class="col-75">
+                <select id="country" name="country">
+                  <option value="retouch">Simple Retouch</option>
+                  <option value="retouch-skin">Retouch & skin smooth</option>
+                  <option value="bg-change">Background change</option>
+                  <option value="manipulation">Manipulation</option>
+                  <option value="cb">CB eddit</option>
+                  <option value="poster">movie poster</option>
+                </select>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-25">
+                <label for="subject">Write your extra suggetions</label>
+              </div>
+              <div class="col-75">
+                <textarea id="subject" name="subject" placeholder="Explan your self.." style="height:200px"></textarea>
+              </div>
+          </div>
+          
+           </div>
+           <div>
+            <img id="preview-image">
+          </div>
+          <img id="blah" alt="your image" width="100" height="100" />
+
+          <input type="file" 
+              onchange="document.getElementById('blah').src = window.URL.createObjectURL(this.files[0])">
+          
+            
+      
+               <!-- <input type="button" value="submit"></a> -->
+               <a href="submit.html">submit</a>
+       
+            </div>
+          </form>
+        </div>
+      </div>
+       <div class="app-picture">
+         <img src="himeshh logo.png">
+
+         </div>
+       </div>
+     </div>
+     
+    </div>
+    
+  </BODY>
+</HTML>
